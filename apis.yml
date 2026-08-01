@@ -1,8 +1,24 @@
 aid: remedee-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/remedee-labs.png
 name: Remedee Labs
-description: 'Remedee Labs is a company surfaced as a portfolio company of partech and added to the API
-  Evangelist network as a stub for enrichment. Sector: Healthcare. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Remedee Labs is a French medical device company founded in 2016 in Grenoble that develops
+  millimeter-wave neuromodulation solutions for chronic pain management. Its flagship product is the Remedee
+  wrist bracelet, which stimulates nerve endings to trigger endorphin release, paired with the myRemedee
+  companion app and human coaching. The company markets two subscription solutions, FibroRem for fibromyalgia
+  and NoviRem for osteoarthritis pain. Surfaced as a portfolio company of Partech and added to the API
+  Evangelist network; the product is consumer-facing and publishes no public developer API, SDK, or technical
+  integration surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/remedee-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Medical Devices
+- Neuromodulation
+- Chronic Pain
+- Digital Health
+- Wearables
+- Fibromyalgia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/remedee-labs-domain-security.yml
 - type: Website
   url: https://remedeelabs.com/
+- type: Blog
+  url: https://remedeelabs.com/news/
+- type: Support
+  url: https://remedeelabs.com/contact/
+- type: PrivacyPolicy
+  url: https://remedeelabs.com/politique-de-confidentialite/
+- type: TermsOfService
+  url: https://remedeelabs.com/mentions-legales/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
